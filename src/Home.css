@@ -1,0 +1,36 @@
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__image{
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.home__row{
+    display: flex;
+    margin: 0 5px;
+    overflow-y: hidden;
+}
+
+.home__row::-webkit-scrollbar{
+    display: none;
+}
+
+.home__item{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    margin: 20px 10px ;
+    min-width: 300px;
+}
+
+.home__item img{
+    width: 100%;
+    object-fit: contain;
+}
